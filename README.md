@@ -1,4 +1,4 @@
-# SLE
+# SLE-mWGCNA
 
 ## Multi-cell type gene co-expression network analysis reveals coordinated interferon response and cross cell-type correlations in SLE
 
@@ -17,3 +17,5 @@ For a more integrative understanding of the cross-correlation among different ce
 **Figure 2: An overview of multi cell type WGCNA (mWGCNA) approach.** **(A)** A figure depicting the mWGCNA analysis using combined transcriptomes from six different cell types. **(B)** We found 13 modules (out of total 78) that have significant enrichment of DEGs (IFNpos-vs-IFNneg) in at least one cell type. The X-axis shows modules with their enrichment in each cell type and Y1-axis shows -Log10 value of FDR (based on hypergeometric test). This includes four modules (black, blue, lightyellow, and darkolivegreen) where the DEGs are significantly enriched in two or more cell types. We have selected two modules (black and lightyellow) that we used for further analysis. Modules are sorted based on their increasing module size (showing as black dash on the Y2-axis).
 
 In summary, we generated a large-scale gene expression dataset from sorted immune cell populations and present a novel computational approach to analyze such data in an integrative fashion in the context of an autoimmune disease. Our results reveal the power a hypothesis-free and data-driven approach to discover drug targets and reveal novel cross-correlation among multiple immune cell types specific to a subset of SLE patients. This approach is immediately useful for studying autoimmune diseases and is applicable in other contexts where gene expression profiling is possible from multiple cell types within the same tissue compartment.
+
+### We used R package WGCNA (v1.61) for analysis.
