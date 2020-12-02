@@ -20,7 +20,7 @@ In summary, we generated a large-scale gene expression dataset from sorted immun
 
 ### How to use it?
 
-We used R package WGCNA (v1.61) for analysis and provided R history files of mWGCNA (mWGCNA.Rhistory) and Differential Network Analysis between IFNpos and INFneg (DifferentialNetworkAnalysis.Rhistory) in corresponding folders. All required input files (mainly gene expression and clinical information files) are provided in the folder.
+We used R package WGCNA (v1.61) for analysis and provided R history files of mWGCNA (mWGCNA.Rhistory) and Differential Network Analysis between IFNpos and IFNneg (DifferentialNetworkAnalysis.Rhistory) in corresponding folders. All required input files (mainly gene expression and clinical information files) are provided in the folder.
 
 mWGCNA input files: ExpressionProfilesTPM1.csv, ClinicalTraits.csv
 
