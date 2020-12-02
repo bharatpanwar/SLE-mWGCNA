@@ -18,4 +18,7 @@ For a more integrative understanding of the cross-correlation among different ce
 
 In summary, we generated a large-scale gene expression dataset from sorted immune cell populations and present a novel computational approach to analyze such data in an integrative fashion in the context of an autoimmune disease. Our results reveal the power a hypothesis-free and data-driven approach to discover drug targets and reveal novel cross-correlation among multiple immune cell types specific to a subset of SLE patients. This approach is immediately useful for studying autoimmune diseases and is applicable in other contexts where gene expression profiling is possible from multiple cell types within the same tissue compartment.
 
-### We used R package WGCNA (v1.61) for analysis.
+### How to use it?
+
+We used R package WGCNA (v1.61) for analysis and provided R history files of mWGCNA (mWGCNA.Rhistory) and Differential Network Analysis between IFNpos and INFneg (DifferentialNetworkAnalysis.Rhistory) in corresponding folders. All required input files (mainly gene expression and clinical information files) are provided in the folder.
+
