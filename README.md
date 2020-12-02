@@ -34,4 +34,4 @@ library(cluster)
 library(impute)# install it for imputing missing value
 library(scatterplot3d)
 
-)For details, please use standard WGCNA tutorials (https://horvath.genetics.ucla.edu/html/CoexpressionNetwork/Rpackages/WGCNA/Tutorials/) or Differential Network Analysis tutorial (https://horvath.genetics.ucla.edu/html/CoexpressionNetwork/DifferentialNetworkAnalysis/).
+For details, please use standard WGCNA tutorials (https://horvath.genetics.ucla.edu/html/CoexpressionNetwork/Rpackages/WGCNA/Tutorials/) or Differential Network Analysis tutorial (https://horvath.genetics.ucla.edu/html/CoexpressionNetwork/DifferentialNetworkAnalysis/).
