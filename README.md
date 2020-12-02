@@ -26,12 +26,20 @@ mWGCNA input files: ExpressionProfilesTPM1.csv, ClinicalTraits.csv
 
 Differential Network Analysis input files: FirstVisitExpressionProfiles.csv, FirstVisitClinicalTraits.csv
 
+
 Please install follwoing R libraries:
+
 library(WGCNA)
+
 library(MASS)	# standard, no need to install
+
 library(class)	# standard, no need to install
+
 library(cluster)
+
 library(impute)# install it for imputing missing value
+
 library(scatterplot3d)
+
 
 For details, please use standard WGCNA tutorial (https://horvath.genetics.ucla.edu/html/CoexpressionNetwork/Rpackages/WGCNA/Tutorials/) or Differential Network Analysis tutorial (https://horvath.genetics.ucla.edu/html/CoexpressionNetwork/DifferentialNetworkAnalysis/).
