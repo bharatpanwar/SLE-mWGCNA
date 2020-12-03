@@ -8,7 +8,7 @@ Please Cite: https://www.biorxiv.org/content/10.1101/2020.04.27.065227v2
 
 ### How to use it?
 
-We used R package WGCNA (v1.61) for analysis and provided R history files of mWGCNA (mWGCNA.Rhistory) and Differential Network Analysis between IFNpos and IFNneg (DifferentialNetworkAnalysis.Rhistory) in corresponding folders. All required input files (mainly gene expression and clinical information files) are provided in the folder.
+We used R package WGCNA for analysis and provided R history files of mWGCNA (mWGCNA.Rhistory) and Differential Network Analysis between IFNpos and IFNneg (DifferentialNetworkAnalysis.Rhistory) in corresponding folders. All required input files (mainly gene expression and clinical information files) are provided in the folder.
 
 mWGCNA input files: ExpressionProfilesTPM1.csv, ClinicalTraits.csv
 
@@ -17,7 +17,7 @@ Differential Network Analysis input files: FirstVisitExpressionProfiles.csv, Fir
 
 Please install follwoing R libraries:
 
-library(WGCNA)
+library(WGCNA) # v1.61
 
 library(MASS)	# standard, no need to install
 
@@ -25,7 +25,7 @@ library(class)	# standard, no need to install
 
 library(cluster)
 
-library(impute)# install it for imputing missing value
+library(impute) # install it for imputing missing value
 
 library(scatterplot3d)
 
